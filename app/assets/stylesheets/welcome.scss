@@ -1,0 +1,16 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "toystore/pages/landing";
+body {
+    margin: 0px;
+    background-image: url('https://images.hdqwalls.com/download/beautiful-landscape-nature-scenery-1d-2560x1700.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+    .text-white {
+        color: #fff;
+    }
+    .pagewrapper {
+        height: 2500px;
+    }
+}

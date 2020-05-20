@@ -1,0 +1,47 @@
+.header {
+    position: fixed;
+    width: 100%;
+    height: 104px;
+    box-shadow: 0.5px 0.5px 10px rgb(126, 124, 124);
+    &__top {
+        display: flex;
+        color: #fff;
+        padding: 0 9%;
+        font-size: 12px;
+        height: auto;
+        line-height: 18px;
+        background-color: #a5c926;
+        align-items: center;
+        &__phone {
+            padding: 5px;
+        }
+        &__email {
+            padding: 5px;
+            color: #fff;
+        }
+    }
+    &__bottom {
+        display: flex;
+        padding: 0 9%;
+        background-color: #fff;
+        align-items: center;
+        &__logo {
+            color: #000;
+            font: 24px normal sans-serif;
+            text-decoration: none;
+            padding: 10px;
+        }
+        &__nav {
+            display: flex;
+            padding: 15px;
+            justify-content: space-between;
+            &__link {
+                color: #000;
+                text-decoration: none;
+                font: 18px normal sans-serif;
+                padding: 12px 18px;
+                border-radius: 16px;
+            }
+        }
+    }
+}

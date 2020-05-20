@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 104px;
+    height: 616px;
+    &__card {
+        margin-right: 0px;
+        width: 514px;
+        height: 260px;
+        padding: 56px 48px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__main {
+            &__top {
+                display: flex;
+                justify-content: center;
+                font: 20px normal sans-serif;
+                color: #a5c926;
+            }
+            &__middle {
+                display: flex;
+                justify-content: center;
+                font: 40px normal sans-serif;
+                color: #000;
+            }
+        }
+    }
+}
